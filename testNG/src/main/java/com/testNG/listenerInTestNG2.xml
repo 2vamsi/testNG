@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="grouping">
+
+	<listeners>
+		<listener class-name="com.testNG.J_ListnerInTestNG"></listener>
+	</listeners>
+
+	<test name="Listeners in TestNG">
+		<classes>
+			<class name="com.testNG.J_ListnerTestClass" />
+			<class name="com.testNG.D_DependsOnMethodInTestNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite>

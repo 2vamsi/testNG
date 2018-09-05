@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Retry suite">
+
+<listeners>
+<listener class-name="com.testNG.K_Retry"></listener>
+</listeners>
+
+	<test name="Retry in TestNG">
+		<classes>
+			<class name="com.testNG.K_RetryTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite>

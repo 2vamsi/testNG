@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="grouping">
+
+<parameter name="data" value="UserName"></parameter>
+	<!-- <parameter name="data1" value=""></parameter> -->
+
+	<test name="parameters in TestNG">
+		<classes>
+			<class name="com.testNG.I_ParametersInTestNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite>
