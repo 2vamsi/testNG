@@ -1,4 +1,4 @@
-pack age com.testNG;
+package com.testNG;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

@@ -1,5 +1,6 @@
 package com.testNG;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -21,6 +22,7 @@ import org.testng.annotations.Test;
  * @BeforeMethod
  * @Test
  * @AfterMethod
+ * 
  * 
  * @BeforeMethod
  * @Test - 2nd test
@@ -45,6 +47,7 @@ public class B_BasicAnnotationsInTestNG {
 	@Test
 	public void test1() {
 		System.out.println("@Test");
+		//Assert.assertTrue(true);
 
 	}
 
@@ -97,6 +100,7 @@ public class B_BasicAnnotationsInTestNG {
 	@Test
 	public void test10() {
 		System.out.println("@Test - 2nd test");
+		//Assert.assertTrue(false);
 	}
 	
 	

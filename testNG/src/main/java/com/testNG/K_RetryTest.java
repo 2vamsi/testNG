@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 
 public class K_RetryTest {
 	int i =0;
-	@Test
+	@Test (alwaysRun = true)
 	public void test1() {
 		
 		i++;
-		if (i<3) {
+		if (i<5) {
 			System.out.println("test Failed");
 	
 			Assert.assertTrue(false);

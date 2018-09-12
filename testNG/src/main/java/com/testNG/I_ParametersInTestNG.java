@@ -23,7 +23,6 @@ public class I_ParametersInTestNG {
 	public void test1(@Optional("default") String data, @Optional("default1") String data1) {
 		System.out.println(data);
 		System.out.println(data1);
-		
 	}
 
 }

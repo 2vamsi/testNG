@@ -42,9 +42,7 @@ public class C_AssertionsInTestNG {
 	@Test
 	public void test4() {
 		Assert.assertFalse(true);
-		Assert.assertnu
 	}
-	
 	
 	
 	

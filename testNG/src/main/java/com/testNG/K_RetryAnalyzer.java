@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class K_RetryAnalyzer implements IRetryAnalyzer {
 
 	int counter = 0;
-	int retrylimit = 3;
+	int retrylimit = 10;
 	
 	/* Sometimes,  test may fail because of -  browser crash or server down/ database connectivity issue etc
 	 * We want to re-trigger the test to make sure that it is a valid failure

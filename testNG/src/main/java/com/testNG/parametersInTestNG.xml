@@ -5,7 +5,7 @@
 <suite name="grouping">
 
 <parameter name="data" value="UserName"></parameter>
-	<!-- <parameter name="data1" value=""></parameter> -->
+<!-- <parameter name="data1" value="Password"></parameter> -->
 
 	<test name="parameters in TestNG">
 		<classes>

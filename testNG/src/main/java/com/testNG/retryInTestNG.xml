@@ -5,7 +5,7 @@
 <suite name="Retry suite">
 
 <listeners>
-<listener class-name="com.testNG.K_Retry"></listener>
+<listener class-name="com.testNG.K_RetryListener"></listener>
 </listeners>
 
 	<test name="Retry in TestNG">
